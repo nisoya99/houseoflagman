@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="houseoflagman.service.ReservationServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-29T19:36:28.582Z" hostname="MacBook-Pro-von-Ayse.local" time="0.146">
+  <properties/>
+  <testcase name="getBookedPersons_returnsCorrectSum_whenReservationsExist()" classname="houseoflagman.service.ReservationServiceTest" time="0.141"/>
+  <testcase name="isCapacityAvailable_returnsFalse_whenFull()" classname="houseoflagman.service.ReservationServiceTest" time="0.002"/>
+  <testcase name="getBookedPersons_returnsZero_whenNoReservations()" classname="houseoflagman.service.ReservationServiceTest" time="0.002"/>
+  <testcase name="isCapacityAvailable_returnsTrue_whenEnoughSpace()" classname="houseoflagman.service.ReservationServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

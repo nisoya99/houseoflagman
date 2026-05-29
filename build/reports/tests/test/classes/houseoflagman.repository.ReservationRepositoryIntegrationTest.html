@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ReservationRepositoryIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ReservationRepositoryIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/houseoflagman.repository.html">houseoflagman.repository</a> &gt; ReservationRepositoryIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.016s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findByDate_returnsEmpty_whenNoReservationsForDate()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findByDate_returnsReservationsForDate()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2026-05-29T21:36:28.476+02:00  INFO 13269 --- [houseoflagman] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [houseoflagman.repository.ReservationRepositoryIntegrationTest]: ReservationRepositoryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-29T21:36:28.482+02:00  INFO 13269 --- [houseoflagman] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration houseoflagman.HouseoflagmanApplication for test class houseoflagman.repository.ReservationRepositoryIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.14)
+
+2026-05-29T21:36:28.489+02:00  INFO 13269 --- [houseoflagman] [    Test worker] h.r.ReservationRepositoryIntegrationTest : Starting ReservationRepositoryIntegrationTest using Java 21.0.11 with PID 13269 (started by aysesoy in /Users/aysesoy/Downloads/houseoflagman)
+2026-05-29T21:36:28.489+02:00  INFO 13269 --- [houseoflagman] [    Test worker] h.r.ReservationRepositoryIntegrationTest : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-05-29T21:36:28.508+02:00  INFO 13269 --- [houseoflagman] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T21:36:28.511+02:00  INFO 13269 --- [houseoflagman] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 4 JPA repository interfaces.
+2026-05-29T21:36:28.515+02:00  INFO 13269 --- [houseoflagman] [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-05-29T21:36:28.520+02:00  INFO 13269 --- [houseoflagman] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:19e3dba8-a524-4650-8f2e-a43fbe426880;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-05-29T21:36:28.525+02:00  INFO 13269 --- [houseoflagman] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T21:36:28.526+02:00  INFO 13269 --- [houseoflagman] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T21:36:28.528+02:00  INFO 13269 --- [houseoflagman] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T21:36:28.529+02:00  INFO 13269 --- [houseoflagman] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@2ffb6cf6']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T21:36:28.548+02:00  INFO 13269 --- [houseoflagman] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists menu_category cascade 
+Hibernate: drop table if exists menu_item cascade 
+Hibernate: drop table if exists reservation cascade 
+Hibernate: drop table if exists special_hours cascade 
+Hibernate: create table menu_category (id bigint generated by default as identity, description varchar(255), name varchar(255), primary key (id))
+Hibernate: create table menu_item (has_beef boolean not null, has_chicken boolean not null, has_vegetarian boolean not null, price float(53), recommended boolean not null, category_id bigint, id bigint generated by default as identity, description varchar(255), image_url varchar(255), name varchar(255), primary key (id))
+Hibernate: create table reservation (date date not null, persons integer not null check ((persons&gt;=1) and (persons&lt;=8)), time time(6) not null, id bigint generated by default as identity, email varchar(255), name varchar(255) not null, phone varchar(255) not null, status enum ('ARRIVED','NO_SHOW','PENDING'), primary key (id))
+Hibernate: create table special_hours (close_time time(6), closed boolean not null, date date, date_to date, open_time time(6), id bigint generated by default as identity, description varchar(255), primary key (id))
+Hibernate: alter table if exists menu_item add constraint FKqrrmg534c9fint7sxs1tmnyou foreign key (category_id) references menu_category
+2026-05-29T21:36:28.551+02:00  INFO 13269 --- [houseoflagman] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T21:36:28.564+02:00  INFO 13269 --- [houseoflagman] [    Test worker] h.r.ReservationRepositoryIntegrationTest : Started ReservationRepositoryIntegrationTest in 0.081 seconds (process running for 3.404)
+Hibernate: insert into reservation (date,email,name,persons,phone,status,time,id) values (?,?,?,?,?,?,?,default)
+Hibernate: select r1_0.id,r1_0.date,r1_0.email,r1_0.name,r1_0.persons,r1_0.phone,r1_0.status,r1_0.time from reservation r1_0 where r1_0.date=?
+Hibernate: select r1_0.id,r1_0.date,r1_0.email,r1_0.name,r1_0.persons,r1_0.phone,r1_0.status,r1_0.time from reservation r1_0 where r1_0.date=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.4</a> at 29.05.2026, 21:36:28</p>
+</div>
+</div>
+</body>
+</html>

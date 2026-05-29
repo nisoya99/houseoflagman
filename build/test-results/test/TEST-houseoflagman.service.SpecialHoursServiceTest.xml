@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="houseoflagman.service.SpecialHoursServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-29T19:36:28.730Z" hostname="MacBook-Pro-von-Ayse.local" time="0.042">
+  <properties/>
+  <testcase name="isDateClosed_returnsTrue_whenDateWithinClosedRange()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.037"/>
+  <testcase name="isDateClosed_returnsTrue_whenSpecialHoursClosedOnDate()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.001"/>
+  <testcase name="isDateClosed_returnsFalse_whenSpecialHoursOpenOnDate()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.001"/>
+  <testcase name="isDateClosed_returnsFalse_whenTuesday()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.001"/>
+  <testcase name="isDateClosed_returnsTrue_whenMonday()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.001"/>
+  <testcase name="getOpenTime_returnsDefault_whenNoSpecialHours()" classname="houseoflagman.service.SpecialHoursServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
